@@ -1,0 +1,33 @@
+Gonna try this manual method:
+1)_Boot from live USB
+2)_Install Ubuntu
+3)_Select Wifi + Connect to Wifi
+4)_Prepare to isntall Ubuntu
+-> Download updates while installing ubuntu
+-> Install 3rd party software
+5)_Installation Type
+-> Something Else
+6)_freespace
+Select freespace under /dev/sdb and (2) click +, note the amount of space (500107 MB in this case).
+7)_Create Partition
+-> Subtract 2x amount of RAM from value in size
+-> 16GB Memory -> 32GB to subtract -> 32768MB
+-> Total is ~~500GB -> 500107MB
+-> Subtract, 500-RAM Size -> 500107 - 32768 => 
+=> New Primary Partition
+=> Location -> Beginning of this space
+=> Use as -> journaling file system
+=> Mount point -> /
+8)_Again select free space, +
+=> Size -> Remaing space left over
+=> Type of partition -> Logical
+=> Location -> Beginning of space
+=> use as -> Swap area
+9)_Install now
+-> select /dev/sdb
+-> select /dev/sdb Samsung Portable SSD T5 
+-> install now
+10)_Keyboard Layout
+11)_User Admin
+-> all the stuff for user auth
+12)_Reboot and boot from Ubuntu.

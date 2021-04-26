@@ -14,6 +14,8 @@ Final Solution:
 Install from Live USB, Set EFI, EXT4 Journaling, Swap Partition.
 Boot.
 
+EFI Space -> 100MB
+
 
 # PASSWORD
 ## Secure Boot

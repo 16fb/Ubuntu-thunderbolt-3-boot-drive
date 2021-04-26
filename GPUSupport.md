@@ -12,6 +12,7 @@
 
 ## IF Error: you have held broken packages
 [Original Reference / Solution](https://askubuntu.com/questions/1077493/unable-to-install-nvidia-drivers-on-ubuntu-18-04)
+
 ### Try run package fixer
 ```
 $ sudo apt -f install
